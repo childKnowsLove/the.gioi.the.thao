@@ -9,3 +9,33 @@
 // Asset paths
 // $path-image   :   '../img';
 // $path-fonts     :  '../fonts';
+// $primary: #bb0303 !default;
+// $listFontSize: (10, 11, 12, 14, 15, 16, 18, 20, 24, 28) !default;
+
+// $sizes: () !default;
+// $sizes: map-merge((
+//    7: 7%,
+//   25: 25%,
+//   40: 40%,
+//   50: 50%,
+//   60: 60%,
+//   75: 75%,
+//   100: 100%
+// ), $sizes);
+
+// $bolds: () !default;
+// $bolds: map-merge((
+//   1: 100,
+//   2: 200,
+//   3: 300,
+//   4: 400,
+//   5: 500,
+//   6: 600,
+//   7: 700,
+//   8: 800,
+//   9: 900
+// ), $bolds);
+
+// @each $bold, $length in $bolds {
+//     .bold-#{$bold} { font-weight: $length !important; }
+// }

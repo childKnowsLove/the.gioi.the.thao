@@ -1,0 +1,133 @@
+.img-big-banner {}
+
+.list-banner {
+    li {
+        border-right: 1px solid #f0f0f0;
+        border-left: 1px solid #f0f0f0;
+
+        &:hover {
+            border-bottom: 2px solid $primary;
+
+            p {
+                color: $primary
+            }
+        }
+    }
+}
+
+.news {
+    header {
+        height: 45px
+    }
+}
+
+.triangle {
+    position: absolute;
+    top: 0;
+    left: -42px;
+    height: 0;
+    width: 0;
+    border-left: 21px solid transparent;
+    border-right: 21px solid black;
+    border-bottom: 21px solid transparent;
+    border-top: 21px solid transparent;
+}
+
+.product-selling {
+    border: 1px $primary solid;
+    .title {
+        width: 280px;
+        height: 46px;
+        display: block;
+        background-image: url('../../../assets/img/home/products_spc_title-bg.png');
+        background-repeat: none;
+        position: absolute;
+        left: 50%;
+        top: 0;
+        transform: translate(-50%, -50%);
+    }
+
+    .arow-back {
+        left: 30px;
+        z-index: 2;
+    }
+
+    .arow-next {
+        right: 30px;
+        z-index: 2;
+    }
+}
+
+.product-list-title {
+    height: 50px;
+    margin-bottom: 2px;
+    .icon-title {
+        left: 0;
+        bottom: 0;
+        width: 80px !important;
+        height: 60px;
+    }
+}
+
+.price-range {
+    li a {
+        color: #082bfe
+    }
+}
+.hot-product {
+    // width: 480px;
+    // height: 375px;
+}
+.hot-product-rating-info {
+    ul {
+        padding-left: 12px;
+        &:before {
+            content: '';
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 10px;
+            height: 100%;
+            border-left: 3px solid #d1d1d1;
+        }
+        .hot-product-rating-sale {
+            &:before {
+                content: '';
+                display: block;
+                position: absolute;
+                border-left: 3px solid #ff6e00;
+                top: 0;
+                left: -12px;
+                width: 10px;
+                height: 100%;
+            }
+        }
+        li {
+            position: relative;
+            &:nth-of-type(n+2) {
+                &:before {
+                    content: '';
+                    display: block;
+                    position: absolute;
+                    top: 5px;
+                    left: -15px;
+                    width: 10px;
+                    height: 10px;
+                    background: #d1d1d1;
+                    border-radius: 50%;
+                }
+            }
+        }
+    }
+}
+
+.hot-product {
+    height: 373px;
+}
+
+.product-list-item {
+    .product-item {
+        height: 373px;
+    }
+}
